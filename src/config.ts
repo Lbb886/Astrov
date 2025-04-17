@@ -1,29 +1,29 @@
 export default {
   // 网站标题
-  Title: '韩小韩博客',
+  Title: '水南亭',
   // 网站地址
-  Site: 'https://www.vvhan.com',
+  Site: 'https://uvnj.dev',
   // 网站副标题
-  Subtitle: '不曾与你分享的时间,我在进步.',
+  Subtitle: '无限进步.',
   // 网站描述
-  Description: '韩小韩博客 专注于前开发与相关技术的实战分享，涵盖Vue框架、Node.js、Serverless等，并涉及Node、Python、Linux、Docker等领域。同时，博客也分享作者的生活、音乐和旅行的热爱。',
+  Description: 'UvNj博客 专注于实战分享，涵盖Vue框架、Node.js、Serverless等，并涉及Node、Python、Linux、Docker等领域。同时，博客也分享时光。',
   // 网站作者
-  Author: '.𝙃𝙖𝙣',
+  Author: 'UvNj',
   // 作者头像
-  Avatar: 'https://q1.qlogo.cn/g?b=qq&nk=1655466387&s=640',
+  Avatar: 'https://',
   // 网站座右铭
-  Motto: '运气是计划之外的东西.',
+  Motto: '来不及.',
   // Cover 网站缩略图
   Cover: '/assets/images/banner/072c12ec85d2d3b5.webp',
   // 网站侧边栏公告 (不填写即不开启)
   Tips: '<p>欢迎光临我的博客 🎉</p><p>这里会分享我的日常和学习中的收集、整理及总结，希望能对你有所帮助:) 💖</p>',
   // 首页打字机文案列表
   TypeWriteList: [
-    '不曾与你分享的时间,我在进步.',
-    "I am making progress in the time I haven't shared with you.",
+    '无限进步.',
+    "Infinite Progress.",
   ],
   // 网站创建时间
-  CreateTime: '2021-09-01',
+  CreateTime: '2025-06-01',
   // 顶部 Banner 配置
   HomeBanner: {
     enable: true,
@@ -64,7 +64,7 @@ export default {
   WebSites: [
     // 仅支持 SVG 且 SVG 需放在 public/assets/images/svg/ 目录下，填入文件名即可 <不需要文件后缀名>（封装了 SVG 组件 为了极致压缩 SVG）
     // 建议使用 https://tabler.io/icons 直接下载 SVG
-    { text: 'Github', link: 'https://github.com/uxiaohan', icon: 'WebSite_github' },
+    { text: 'Github', link: 'https://github.com/', icon: 'WebSite_github' },
     { text: '韩小韩API', link: 'https://api.vvhan.com', icon: 'WebSite_api' },
     { text: '每日热榜', link: 'https://hot.vvhan.com', icon: 'WebSite_hot' },
     { text: '骤雨重山图床', link: 'https://wp-cdn.4ce.cn', icon: 'WebSite_img' },
@@ -106,7 +106,7 @@ export default {
     }
   },
   // Han Analytics 统计（https://github.com/uxiaohan/HanAnalytics）
-  HanAnalytics: { enable: true, server: 'https://analytics.vvhan.com', siteId: 'Hello-HanHexoBlog' },
+  HanAnalytics: { enable: false, server: 'https://', siteId: '' },
   // Google 广告
   GoogleAds: {
     ad_Client: '', //ca-pub-xxxxxx
